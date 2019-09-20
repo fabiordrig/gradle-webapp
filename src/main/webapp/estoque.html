@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gerenciador de Compras</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="index.html">Compras</a></li>
+					<li><a href="estoque.html">Estoque</a></li>
+				</ul>
+			</nav>
+			<article class="wrapper style2">
+				<div class="col-12">
+					<header>
+						<h2>Relatorio de Estoque</h2>
+					</header>
+					<div class="container medium">
+						<table>
+							<th><b>Nome do produto</b></th>
+							<th><b>Quantidade em estoque</b></th>
+							<th><b>Unidade</b></th>
+							<th><b>Valor</b></th>
+							<th><b>Editar</b></th>
+							<tr>
+								<td>Arroz</td>
+								<td>2</td>
+								<td>Kg</td>
+								<td>50,00</td>
+							<tr>
+							<tr>
+								<td>Leite</td>
+								<td>3</td>
+								<td>L</td>
+								<td>25,00</td>
+							</tr>
+							<tr>
+								<td>Feijão</td>
+								<td>1000</td>
+								<td>gr</td>
+								<td>25,00</td>
+							</tr>
+						<table>
+	
+					</div>
+	
+					<hr/>
+				</div>
+			</article>
+			<article id="compra" class="wrapper style2">
+				<div class="container medium">
+					<header>
+						<h2>Adição de Produtos</h2>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-4 col-12-small">
+										<input type="text" name="name" id="name" placeholder="ID" />
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Nome do produto" />
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Valor" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Quantidade" />
+									</div>
+									<div class="col-6 col-12-small">
+										<select class="form-control" id="sel1">
+												<option>Kg</option>
+												<option>L</option>
+												<option>gr</option>
+										</select>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Adicionar Produto" /></li>
+											<li><input type="reset" value="Cancelar" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</article>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
